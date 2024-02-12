@@ -1,0 +1,109 @@
+.tituloPrincipal{
+    padding-left: 30px;
+    font-size: 50px;
+    background-color: #BBBBBB;
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+}
+
+.bloquePrincipal{
+    float: right;
+    background: #ffffff; 
+}
+
+.tituloCentralizado{
+    text-align: center;
+    border: 4px solid #000000;
+    padding: 20px;
+    padding-bottom: 15px;
+    background-color: #BBBBBB;
+}
+
+em strong{
+    color: #000000;
+}
+
+#mision{
+font-size: 20px;
+}
+
+#garantia{
+    text-align: center;font-size: 20px
+}
+
+.diferenciales{
+    display:inline-block;
+    text-align: center; font-size: 20px
+}
+
+h3{
+    background-color: #BBBBBB;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+    float: right;
+    padding: 18px;
+}
+
+footer{
+    text-align: center;
+    background-color: #c78c19;
+    padding: 40px;
+}
+
+#tamañoFooter{
+    width: 200px;
+    height: 200px;
+}
+
+#footerOSAKA{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyright{
+    font-size: 13px;
+    margin: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}

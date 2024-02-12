@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>CONTACTO</title>
+
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="reset.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img id= "logo" src="imagenproductos/logo.png" alt="Logo de la tienda"></h1>
+                <h2 id="textoLogo">OSAKA fotografía</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="productos.html">PRODUCTOS</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreApellido">Nombre y Apellido</label>
+                <input type="text" id="nombreApellido" class="inputPadres" required> 
+
+                <label for="correoElectrónico">Correo Electrónico</label>
+                <input type="email" id="correoElectrónico" class="inputPadres" required placeholder="email@dominio.com"> 
+
+                <label for="teléfono">Teléfono</label>
+                <input type="tel" id="teléfono" class="inputPadres" required placeholder="(XXXX) 15XXXXXX"> 
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="68" rows="10" id="mensaje" class="inputPadres"> </textarea>
+
+            <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radioEmail"><input type="radio" name= contacto value="email" id="radioEmail">Email</label>
+                
+                    <label for="radioTelefono"><input type="radio" name= contacto value="telefono" id="radioTelefono">Teléfono</label>
+
+                    <label for="radioWhatsapp"> <input type="radio" name= contacto value="Whatsapp" id="radioWhatsapp" checked>Whatsapp</label>
+            </fieldset> 
+            <fieldset>
+                    <legend>Seleccione una de las opciones para recibir más información</legend>
+                        <select>
+                            <option>Lentes</option>
+                            <option>Cámaras</option>
+                            <option>Servicio Técnico</option>
+                            <option>Accesorios</option>
+                            <option>Otros. Por favor detalle en el mensaje de arriba</option>    
+                        </select>
+            </fieldset>
+            <div>
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir por correo novedades sobre la tienda?</label>
+
+                <input type="submit" value="Enviar Formulario" class="formulario">
+            </div>        
+            </form>
+            <table>
+                <thead>
+                    <th>DÍA</th>
+                    <th>HORARIO</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>8:30 a 12:30/16:30 a 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>8:30 a 12:30/16:30 a 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>8:30 a 12:30/16:30 a 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>8:30 a 12:30/16:30 a 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>8:30 a 12:30/16:30 a 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>9:00 a 13:00</td>
+                    </tr>
+                </tbody> 
+            </table>
+        </main>
+        <footer>
+            <img id="tamañoFooter" src="imagenproductos/logofooter.png" alt="Logo de la tienda">
+            <p id="footerOSAKA">OSAKA</p>
+            <p class="copyright"> © Copyright Osaka - Tienda Fotográfica - 2024</p>
+        </footer>
+    </body> 
+</html>
